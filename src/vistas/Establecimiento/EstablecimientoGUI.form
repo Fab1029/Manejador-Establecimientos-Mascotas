@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vistas.Establecimiento.EstablecimientoGUI">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="35" y="31" width="855" height="639"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f44a4" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4645"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f7df0" class="javax.swing.JTextField" binding="ruc" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-720909"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="f73ef" class="javax.swing.JTextField" binding="correo" custom-create="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-720909"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="11e6e" class="javax.swing.JTextField" binding="telefono" custom-create="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-720909"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="c7032" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Ruc"/>
+            </properties>
+          </component>
+          <component id="c1113" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Tipo establecimiento"/>
+            </properties>
+          </component>
+          <component id="dc271" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Correo"/>
+            </properties>
+          </component>
+          <component id="c733b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Coordenadas"/>
+            </properties>
+          </component>
+          <component id="6ec16" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Telefono"/>
+            </properties>
+          </component>
+          <component id="eaa83" class="javax.swing.JTextField" binding="tipoEstablecimientoIngreso" custom-create="true">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-720909"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="97551" class="javax.swing.JTextField" binding="nombreEstablecimiento" custom-create="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-720909"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="7d73e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Nombre establecimiento"/>
+            </properties>
+          </component>
+          <component id="98c1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <text value="Tipo evaluacion"/>
+            </properties>
+          </component>
+          <grid id="f6cdd" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="63abf" class="javax.swing.JCheckBox" binding="evaluacionInformeMonitoreo">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <text value="Evaluacion informe monitoreo"/>
+                </properties>
+              </component>
+              <hspacer id="98ee7">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="d4e47" class="javax.swing.JCheckBox" binding="evaluacionAuditoriaAmbiental">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <text value="Evaluacion auditoria ambiental"/>
+                </properties>
+              </component>
+              <component id="e0b8" class="javax.swing.JCheckBox" binding="evaluacionInformeAmbientalCumplimiento">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <text value="Evaluacion informe ambiental cumplimiento"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="3d263" class="javax.swing.JCheckBox" binding="otroEstablecimiento">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <opaque value="true"/>
+              <text value="Otro establecimiento"/>
+            </properties>
+          </component>
+          <component id="a36fb" class="javax.swing.JComboBox" binding="tipoEstablecimiento">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Medicina veterinaria a domicilio."/>
+                <item value="Consultorios veterinarios."/>
+                <item value="Clínicas veterinarias."/>
+                <item value="Hospitales veterinarios."/>
+                <item value="Unidades veterinarias Móviles."/>
+                <item value="Servicios de rehabilitación y fisioterapia veterinaria."/>
+                <item value="Campañas de esterilización de perros y gatos."/>
+                <item value="Centros de esterilización fijos."/>
+                <item value="Centro de crianza y reproducción."/>
+                <item value="Tiendas de mascotas."/>
+                <item value="Centros de estética animal."/>
+                <item value="Hoteles y centros de alojamiento."/>
+                <item value="Albergues y otros establecimientos de rescate."/>
+                <item value="Centros de adiestramiento."/>
+                <item value="Establecimientos donde se desarrollen espectáculos públicos y privados"/>
+                <item value="Centros de investigación, experimentación y laboratorios"/>
+                <item value="Centros de cuarentena oficiales o privados"/>
+              </model>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="30afe" class="javax.swing.JTextField" binding="coordenadas" custom-create="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-720909"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2437a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4645"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="90391" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="25"/>
+              <text value="ESTABLECIMIENTO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8a38e" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4645"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="a2b89">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="fb81" class="javax.swing.JButton" binding="cancelarBoton" custom-create="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1853536"/>
+              <font size="15"/>
+              <opaque value="false"/>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+          <component id="722d5" class="javax.swing.JButton" binding="aceptarBoton" custom-create="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1853536"/>
+              <font size="15"/>
+              <opaque value="false"/>
+              <text value="Aceptar"/>
+            </properties>
+          </component>
+          <component id="28b36" class="javax.swing.JButton" binding="atrasBoton" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1853536"/>
+              <icon value="vistas/Complements/atrasIcono.png"/>
+              <opaque value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="a4572">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
